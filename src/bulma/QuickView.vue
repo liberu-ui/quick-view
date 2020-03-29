@@ -25,10 +25,11 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@enso-ui/themes/bulma/variables';
     .quick-view {
         border-radius: 0;
         position: fixed;
-        top: 52px;
+        top: $navbar-height;
         right: 0;
         bottom: 0;
         z-index: 5;
