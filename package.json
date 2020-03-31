@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/quick-view",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "QuickView",
   "main": "bulma/index.js",
   "scripts": {
