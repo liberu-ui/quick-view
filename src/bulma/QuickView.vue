@@ -45,15 +45,15 @@ export default {
         }
 
         @media screen and (min-width: 1024px) and (max-width: 1279px) {
-            width: 37%;
+            width: 45%;
         }
 
         @media screen and (min-width: 768px) and (max-width: 1023px) {
-            width: 44%;
+            width: 66%;
         }
 
         @media screen and (max-width: 767px) {
-            width: 50%;
+            width: 100%;
         }
 
         transition: top 0.5s;
