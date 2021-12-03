@@ -19,6 +19,8 @@ export default {
 
     components: { Slide },
 
+    emits: ['close'],
+
     computed: {
         ...mapGetters('preferences', ['bookmarks']),
     },
