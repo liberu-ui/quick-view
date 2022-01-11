@@ -1,22 +1,25 @@
 <template>
-    <slide-right>
+    <slide enter="right"
+           leave="right">
         <div class="box quick-view is-marginless"
             :class="{ 'with-bookmarks': bookmarks }">
             <a class="delete is-pulled-right"
                 @click="$emit('close')"/>
             <slot/>
         </div>
-    </slide-right>
+    </slide>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
-import { SlideRight } from '@enso-ui/transitions';
+import { Slide } from '@enso-ui/transitions';
 
 export default {
     name: 'QuickView',
 
-    components: { SlideRight },
+    components: { Slide },
+
+    emits: ['close'],
 
     computed: {
         ...mapGetters('preferences', ['bookmarks']),
