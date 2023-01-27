@@ -1,5 +1,5 @@
 {
-  "name": "@enso-ui/quick-view",
+  "name": "@cgdsoftware/quick-view",
   "version": "3.0.8",
   "description": "QuickView",
   "main": "bulma/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/@enso-ui/quick-view.git"
+    "url": "git+https://github.com/@cgdsoftware/quick-view.git"
   },
   "keywords": [
     "accessories",
@@ -18,12 +18,12 @@
   "author": "Adrian Ocneanu <aocneanu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/@enso-ui/quick-view/issues"
+    "url": "https://github.com/@cgdsoftware/quick-view/issues"
   },
-  "homepage": "https://github.com/@enso-ui/quick-view#readme",
+  "homepage": "https://github.com/@cgdsoftware/quick-view#readme",
   "dependencies": {
-    "@enso-ui/themes": "^3.0",
-    "@enso-ui/transitions": "^2.0",
+    "@cgdsoftware/themes": "^3.0",
+    "@cgdsoftware/transitions": "^2.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "bulma": "^0.9.0",
