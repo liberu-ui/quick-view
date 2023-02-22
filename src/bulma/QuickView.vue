@@ -1,10 +1,12 @@
 <template>
     <slide enter="right"
-           leave="right">
+        leave="right"
+        @after-leave="$emit('close')"
+        v-show="visible">
         <div class="box quick-view is-marginless"
             :class="{ 'with-bookmarks': bookmarks }">
             <a class="delete is-pulled-right"
-                @click="$emit('close')"/>
+                @click="visible = false"/>
             <slot/>
         </div>
     </slide>
@@ -18,6 +20,12 @@ export default {
     name: 'QuickView',
 
     components: { Slide },
+
+    emits: ['close'],
+
+    data: () => ({
+        visible: true,
+    }),
 
     emits: ['close'],
 
