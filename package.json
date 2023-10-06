@@ -1,6 +1,6 @@
 {
   "name": "@liberu-ui/quick-view",
-  "version": "3.0.12",
+  "version": "3.0.13",
   "description": "QuickView",
   "main": "bulma/index.js",
   "scripts": {
