@@ -12,7 +12,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { Slide } from '@enso-ui/transitions';
+import { Slide } from '@liberu-ui/transitions';
 
 export default {
     name: 'QuickView',
@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@enso-ui/themes/bulma/variables';
+@import '@liberu-ui/themes/bulma/variables';
     .quick-view {
         border-radius: 0;
         position: fixed;
