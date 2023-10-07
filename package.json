@@ -2,7 +2,7 @@
   "name": "@liberu-ui/quick-view",
   "version": "3.0.13",
   "description": "QuickView",
-  "main": "bulma/index.js",
+  "main": "bulma/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
